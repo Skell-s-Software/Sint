@@ -1,0 +1,15 @@
+# Comentario de prueba
+Desde time Importar sleep
+
+Para i En rango(10):
+ Salida(f"Repeticion Nro: {i}")
+
+valor1 = Entrada("¿Cómo te llamas?")
+Salida(f'Bienvenido {valor1}, es un placer')
+
+Condicion valor1 != Nulo:
+ Salida("Condicional básico funcional")
+Alternativa valor1 == "Skell":
+ Salida("Ostia, eres mi creador")
+Contraria:
+ Salida("Else funcional")
