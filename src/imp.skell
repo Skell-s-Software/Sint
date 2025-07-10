@@ -1,0 +1,11 @@
+DesdeLibreria: time ImportarFuncion: sleep
+
+Salida("Hola Mundo desde Sint")
+Salida("Srgunda Linea")
+a = Entrada("Como te llamas?: ")
+Salida("Tu nombre es {a}")
+Si(a != None):
+ Salida("Condicional funcional")
+Repetir(i DentroDe: Rango(10)):
+ Salida("Repeticion: {i}")
+ sleep(0.5)

@@ -2,9 +2,13 @@
 
 # Importación de librerías y módulos
 from extractor import argumentos
+import re
 
+def leer_fichero():
 # Obtener argumentos
-argumentos = argumentos()
+    arg = argumentos()
 
-# Prueba de argumentos
-print(argumentos)
+# Busqueda del archivo en directorio
+    with open(arg[1], 'r', encoding='utf-8') as fichero:
+        codigo = fichero.read()
+        return codigo
