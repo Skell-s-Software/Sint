@@ -3,6 +3,9 @@
 # Importacion de modulos
 from explorador import leer_fichero
 from constantes import funciones
+from rich.console import Console
+
+terminal = Console()
 
 def transpilar(codigo: str):
     codigoPy = codigo

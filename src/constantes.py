@@ -1,7 +1,7 @@
 # Modulo con lista de funciones a transpilar
 
 funciones = {
-    "Salida(": "print(f",
+    "Salida(": "terminal.print(f",
     "Entrada(": "input(",
     "Si(": "if ",
     "Repetir(": "for ",
