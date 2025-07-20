@@ -1,5 +1,5 @@
 # Skell's Sint
-Skell's Sint es un lengusje de programación en español cuyo objetivo es poder facilitar el aprendizaje de los fundamentos básicos de la programación con las herramientas y flexibilidades de python en español.
+Skell's Sint es un lenguaje de programación en español cuyo objetivo es poder facilitar el aprendizaje de los fundamentos básicos de la programación con las herramientas y flexibilidades de python en español.
 
 # ¿Por qué?
 Existen multiples herramientas para poder generar y testear algoritmos básicos de Pseudocódigo como PSEint, al pesar de su increibke beneficio, se quedan muy limitados al momento de probar cosas complejas como la POO (programación orientada a objetos) y importaciones de librerías cruciales para el progreso del aprendizaje como lo es math en python o time e inclusive os.
@@ -10,3 +10,6 @@ El compilador es simple, lo que realiza es la identificación de palabras clave 
 
 # Compatibilidad
 El programa se construye en la versión más reciente de python, y por los momentos solo se piensa crear el compilador para Windows, aunque es posible crear uno para GNU/Linux con el código fuente.
+
+# Aclaración
+Cabe aclarar que esta versión es enteramente un prototipo y por obvias razones hay cosas por pulir o agregar.
