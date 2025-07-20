@@ -12,7 +12,6 @@ def transpilar(codigo: str):
     codigoPy = codigo[0]
     for buscar, remplazar in funciones.items():
         codigoPy = codigoPy.replace(buscar, remplazar)
-    print(f"Codigo Transpilado:\n{codigoPy}")
     if codigo[1] == "streamlit":
         codigoPy = "from rich.console import Console\nterminal = Console()\n" + codigoPy
         with open("index.py", "w", encoding="utf-8") as archivo:
