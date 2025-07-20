@@ -9,6 +9,6 @@ def leer_fichero():
     arg = argumentos()
 
 # Busqueda del archivo en directorio
-    with open(arg[1], 'r', encoding='utf-8') as fichero:
+    with open(arg[0], 'r', encoding='utf-8') as fichero:
         codigo = fichero.read()
-        return codigo
+        return (codigo, arg[1])

@@ -1,12 +1,27 @@
 DesdeLibreria: time ImportarFuncion: sleep
 
 Salida("Hola Mundo desde Sint")
+
 Salida("Segunda Linea")
+
 a = Entrada("Como te llamas?: ")
+
 Salida("Tu nombre es > [bold yellow]{a}[/]")
+
 Si(a != None):
- Salida("Condicional funcional")
-Repetir(i DentroDe: Rango(10)):
- Salida("Repeticion: {i}")
- sleep(0.25)
+   Salida("Condicional funcional")
+
+Repetir(i DentroDe: Rango(5)):
+   Salida("Repeticion: {i}")
+   sleep(0.25)
+
 Salida('[bold][red]Error: [/ bold]Mensaje de Prueba de Error para manejos[/ red]')
+
+i = Verdadero
+
+Mientras(i):
+   Repetir(a DentroDe: Rango(2)):
+      Repetir(e DentroDe: Rango(10)):
+         Si(e % 2 == 0):
+            Salida("{e} Es un numero par")
+   i = Falso

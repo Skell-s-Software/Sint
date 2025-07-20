@@ -1,0 +1,24 @@
+ImportarFuncion: streamlit ConApodo: st
+
+Salida("Ejecucion de Streamlit Exitosa")
+
+st.write("Este texto deberia mostrarse en Streamlit")
+st.write("AHORA Skell's Sint TIENE DESARROLLO GRAFICO BASADO EN STREAMLIT, TOMA PERRO")
+
+# Prueba de widgets de streamlit
+
+col1, col2, col3 = st.columns(3)
+
+HacerCon(col1):
+    valor1 = st.text_input("Valor 1")
+
+HacerCon(col2):
+    valor2 = st.text_input("Valor 2")
+
+HacerCon(col3):
+    boton = st.button("Sumar")
+
+Si(boton):
+    suma = Entero(valor1) + Entero(valor2)
+    titulo = "".join(["Resultado: ", Cadena(suma)])
+    st.title(titulo)
